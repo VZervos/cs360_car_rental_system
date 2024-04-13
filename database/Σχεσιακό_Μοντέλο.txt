@@ -1,0 +1,44 @@
+CAR_Vehicle
+VId | VBrand | VModel | VColor | VKmDriven | VRentalCost | VInsuranceCost | VState | Type | PassengerLimit 
+
+
+Motorcycle_Vehicle
+VId | VBrand | VModel | VColor | VKmDriven | VRentalCost | VInsuranceCost | VState
+
+
+Skate_Vehicle
+VId | VBrand | VModel | VColor | VKmDriven | VRentalCost | VInsuranceCost | VState
+
+
+Bicycle_Vehicle
+VId | VBrand | VModel | VColor | VKmDriven | VRentalCost | VInsuranceCost | VState
+
+
+
+
+Rent
+RId | Day | Month | Year | Hours | Minutes | DurationHours | DurationMinutes | HasInsurance | PaymentAmount | VId | DId | CId
+
+
+
+
+Driver
+DId | TIN
+
+
+Customer
+CId | TIN | mail | City | StreetName | StreetNumber | TK | password
+
+
+Driver License
+DLNumber | DId | ExpirationDay | ExpirationMonth | ExpirationYear | CanDriveCar | CanDriveMotorcycle
+
+
+Credit Card
+CardNumber | CVV | ExpirationMonth | ExpirationYear | CardFirstName | CardLastName
+
+
+
+
+Personal Data
+TIN | FirstName | LastName | BirthDay | BirthMonth | BirthYear
